@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: #e8c8d6;
+background: radial-gradient(circle, rgba(232, 200, 214, 1) 0%, rgba(198, 218, 245, 1) 94%, rgba(148, 187, 233, 1) 100%);
+}
+.card{
+    /* height: 100%;
+    width: 100%; */
+    /* padding: 0.5rem; */
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#profile_pic{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.My_content{
+   padding: 1.4rem;
+   gap: 0.6rem;
+   display: flex;
+   flex-direction: column;
+}
+.hobbies{
+  
+    /* padding: 1rem; */
+    background-color: rgba(222, 219, 219, 0.43);
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+    
+}
+.name, .short_bio, .hobbies_para{
+    text-align: center;
+ }
+ 
+ .hobbies_para{
+       color: #d8508b;
+ }
+ .my_hobbies{
+    padding: 0.5rem 1rem;
+  list-style-position: inside;
+  text-align: left;
+  margin: 0 auto;
+ }
+
+ .card_footer{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    gap: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    height:15%;
+   
+ }
+ .footer_anchor{
+    display: flex;
+    gap: 1rem;
+ }
+ a[href]{
+    text-decoration: none;
+ }
+ a:hover {
+        transform: scale(1.2);
+        text-decoration-line: underline;
+ }
+
+
+
+
